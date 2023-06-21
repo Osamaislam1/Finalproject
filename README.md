@@ -1,19 +1,27 @@
-# Finalproject
-The Main motive of this web application is to provide the seamless Healthcare service where in patient info can be maintained and also handle Appointments of patients, treatment details given by doctor. 
-E-Health Care is virtual healthcare that means online patient care. This system is web-based application which is written in PHP and MYSQL. Continuously, consists of one main component user side. Users can get an appointment from here. 
-The system also allows doctors to log in. Doctors can edit their profile and view their upcoming appointments, patients etc. 
-The system also has an administrator section, where only a single person can manage the whole system. Administrator can add/remove patients, doctors and departments and search for appointments. 
-Technology used in Project:
-HTML: Page layout has been designed in HTML
+# Final year project E-Healthcare 
+The E-Healthcare is a web application designed to provide seamless healthcare services. It allows users to maintain patient information, handle patient appointments, and manage treatment details offered by doctors. The system is developed using PHP and MySQL, making it a web-based application.
 
-CSS : CSS is used for all designing part
+**Features**
+User Side: The system's main component enables users to request appointments.
+Doctor Login: Doctors can log in, edit their profiles, and view upcoming appointments and patient records.
+Administrator Section: An exclusive section for system management, access to a single administrator. The administrator can add/remove patients, doctors, and departments, as well as search for appointments.
 
-JAVASCRIPT : All the validation task and animations has been developed by JavaScript. 
+**Technologies Used**
+The project utilizes the following technologies:
+HTML: Used for page layout design.
+CSS: Employed for all design-related aspects.
+JavaScript: Handles validation tasks and provides animations.
+PHP: Implements business logic and frontend functionality.
+MySQL: Serves as the project's database.
+Apache2: Runs the project on an Apache2 server.
 
-PHP: As the business and frontend logic has been implemented in PHP. 
+**Getting Started**
 
-MySQL: MySQL database has been used as database for the project. 
-
-Apache2: Project will be run over the Apache2 server. 
-
+To set up the Healthcare Management System locally, follow these steps:
+1.	Install the Apache2 server.
+2.	Set up a MySQL database and import the provided SQL file.
+3.	Clone the repository: git clone https://github.com/your-username/healthcare-management-system.git.
+4.	Move the cloned files to the Apache2 server's root directory.
+5.	Update the database configuration in the PHP files to match your MySQL setup.
+6.	Access the application through your web browser.
 
